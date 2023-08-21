@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet, ScrollView, SafeAreaView } from "react-native";
+import { View, StyleSheet, ScrollView, SafeAreaView } from "react-native";
 
 const Untitled6 = () => {
   return <SafeAreaView style={styles.safeArea}>
@@ -8,13 +8,20 @@ const Untitled6 = () => {
       padding: 10,
       position: 'relative',
       flex: 1
-    }}></ScrollView>
+    }}><View style={styles.cWNmBQaN}></View></ScrollView>
     </SafeAreaView>;
 };
 
 const styles = StyleSheet.create({
   safeArea: {
     height: '100%'
+  },
+  cWNmBQaN: {
+    height: 60,
+    width: 140,
+    backgroundColor: "#E4E4E4",
+    borderRadius: 0,
+    color: "#777777"
   }
 });
 export default Untitled6;
